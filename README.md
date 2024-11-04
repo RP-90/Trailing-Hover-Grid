@@ -90,3 +90,5 @@ This project is open source and available under the [MIT License](./LICENSE).
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+**Tags**: `React`, `Tailwind CSS`, `Hover Effect`, `UI Animation`, `Interactive Grid`, `JavaScript`, `CSS`
