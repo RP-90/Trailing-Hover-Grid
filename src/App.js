@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import React from 'react';
+import HeroSection from './Components/HeroSection';
 
 function App() {
+  const title = "Trailing background grid effect";
+  const description = (
+    <>
+      Inspired by{' '}
+      <a
+        href="https://thisisdash.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-white underline"
+      >
+        thisisdash.com
+      </a>
+    </>
+  );
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HeroSection title={title} description={description} />
     </div>
   );
 }

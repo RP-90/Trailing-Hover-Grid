@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# Trailing Hover Grid Effect
+
+A React-based grid component with a trailing hover effect, built with **Tailwind CSS**. This project demonstrates a modern, interactive UI feature suitable for portfolios, landing pages, or any project aiming for a visually engaging user experience.
+
+This effect takes inspiration from the designs at [DASH](https://thisisdash.com/), combining clean, responsive styling with interactive hover elements.
+
+![Hover Grid Demo](./assets/hover-demo.gif)
+
+## Features
+
+- **Trailing Hover Effect**: Smoothly animates elements based on mouse position.
+- **Responsive Design**: Built with Tailwind CSS, making it adaptable to different screen sizes.
+- **Lightweight and Simple**: Minimal setup with essential dependencies.
+
+## Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/RP-90/trailing-hover-grid.git
+   ```
+
+2. Navigate into the project directory:
+
+   ```bash
+   cd trailing-hover-grid
+   ```
+
+3. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm start
+   ```
+
+   The app will be running at [http://localhost:3000](http://localhost:3000).
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+- ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  Runs the app in the development mode. The page will reload when you make changes. You may also see any lint errors in the console.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- ### `npm test`
 
-### `npm test`
+  Launches the test runner in the interactive watch mode.  
+  See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- ### `npm run build`
 
-### `npm run build`
+  Builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- ### `npm run eject`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  **Note: this is a one-way operation. Once you `eject`, you can't go back!** This command will remove the single build dependency from your project.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+- Hover over the grid squares to see the trailing effect in action.
+- Customize colors and grid size by modifying the component in `src/Components/HoverGrid.js`.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Technologies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **React**: JavaScript library for building user interfaces.
+- **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Demo
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To see a live demo, hover over the grid squares to observe the trailing effect.
+
+![Hover Grid Demo](./assets/hover-demo.gif)
+
+## License
+
+This project is open source and available under the [MIT License](./LICENSE).
 
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
