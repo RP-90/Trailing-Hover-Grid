@@ -21,7 +21,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/RP-90/trailing-hover-grid.git
+   git clone https://github.com/RP-90/Trailing-Hover-Grid.git
    ```
 
 2. Navigate into the project directory:
