@@ -1,4 +1,4 @@
-# Trailing Hover Grid Effect
+# React Trailing Hover Grid Effect - Awwwards winner thisisdash.com inspiration
 
 A React-based grid component with a trailing hover effect, built with **Tailwind CSS**. This project demonstrates a modern, interactive UI feature suitable for portfolios, landing pages, or any project aiming for a visually engaging user experience.
 
